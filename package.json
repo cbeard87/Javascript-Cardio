@@ -1,0 +1,22 @@
+{
+  "name": "javascript-cardio",
+  "version": "1.0.0",
+  "description": "A collection of small, fun projects written in plain old Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files 'src/**/*.html, src/**/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbeard87/Javascript-Cardio.git"
+  },
+  "author": "Christopher Beard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbeard87/Javascript-Cardio/issues"
+  },
+  "homepage": "https://github.com/cbeard87/Javascript-Cardio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
